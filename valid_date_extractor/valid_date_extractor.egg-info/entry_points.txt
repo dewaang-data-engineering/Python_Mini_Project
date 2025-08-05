@@ -1,0 +1,2 @@
+[console_scripts]
+extract-dates = valid_date_extractor.cli:main

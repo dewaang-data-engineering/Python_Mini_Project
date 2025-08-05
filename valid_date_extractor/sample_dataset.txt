@@ -1,0 +1,20 @@
+Meeting scheduled for 2024-05-21 at 10:00 AM.
+Another event: 2023-12-31 – New Year's Eve Party 🎉
+Possible typo: 2023-13-12 (invalid month)
+We met on 14/02/2024 for Valentine's Day.
+Random date-like: 99/99/9999 (should be ignored)
+Short form: Mar 05, 2023 — was a sunny day.
+Wrong short form: Mrr 05, 2023 (invalid month name)
+Full month: September 1, 2022 launch event.
+Invalid day: April 31, 2020 (April has only 30 days)
+Ambiguous: 2020-02-30 (Feb has only 29 days max in leap years)
+Old format: 1999-12-25 Christmas night.
+Mix in text: The deadline is 15/08/2025, so hurry up.
+Special case: Jul 4, 2021 Independence Day.
+Invalid leap: Feb 29, 2023 (not leap year)
+Leap valid: Feb 29, 2024
+Extra spaces:   June    7,    2020
+Hyphen used wrongly: 2021-7-04 (month/day must be two digits)
+Slashes missing: 15-08-2025 (should not match DD/MM/YYYY)
+Edge valid: 2020-01-01, 31/12/2020, Dec 31, 2020
+Trick text: Decem 31, 2020 (invalid month short form)
